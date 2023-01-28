@@ -6,8 +6,8 @@ background: #ffffff;
 border-bottom: 2px solid black;
 height: 115px;
 display: flex;
-justify-content: space-between;
-padding: 0 10rem;
+justify-content: left;
+padding: 0 0;
 z-index: 12;
 `;
 
@@ -23,7 +23,7 @@ color: #949494;
 display: flex;
 align-items: center;
 text-decoration: none;
-padding: 0 1rem;
+padding: 0 2rem 0 1rem;
 height: 100%;
 cursor: pointer;
 &.active {

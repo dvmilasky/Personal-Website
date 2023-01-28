@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, NavLink, NavMenu, Logo } 
+import { Nav, NavLink, Logo } 
     from "./NavbarElements";
 import logo from "../../assets/logo_transparent.png"
   
@@ -8,11 +8,12 @@ const Navbar = () => {
     <>
       <Nav>
         <Logo src={logo} ></Logo>
-        <NavMenu>
-          <NavLink to="/about" activeStyle>
-            About
-          </NavLink>
-        </NavMenu>
+        <NavLink to="/about" activeStyle>
+          About
+        </NavLink>
+        <NavLink to="/resume" activeStyle>
+          Resume
+        </NavLink>
       </Nav>
     </>
   );
